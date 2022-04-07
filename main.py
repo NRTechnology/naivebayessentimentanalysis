@@ -1,7 +1,6 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-import joblib
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 
 
@@ -23,7 +22,7 @@ def transform_predict(predicted):
 
 
 # load data set
-data = pd.read_csv('data\google_play_store_apps_reviews_training.csv')
+data = pd.read_csv('google_play_store_apps_reviews_training.csv')
 
 # preproses data digunakan untuk menghapus data package_name, sehingga hanya meninggalkan review dan polarity
 # kemudia ubah semua review menjadi huruf kecil
