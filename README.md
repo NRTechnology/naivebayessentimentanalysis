@@ -1,0 +1,1 @@
+Tugas Mata Kuliah Artificial Intelegence Universitas Dian Nuswantoro pertemuan 4 kelas MT40
